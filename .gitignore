@@ -7,7 +7,8 @@ __pycache__/
 .vscode/
 
 data/
-models/
+models/*
+!models/fraud_model.joblib
 
 .env
 venv/
