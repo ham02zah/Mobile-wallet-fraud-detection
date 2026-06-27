@@ -1,6 +1,6 @@
 # Mobile Wallet Fraud Detection and Transaction Risk Scoring Dashboard
 
-##Live app
+## Live app
 
 Link: https://mobile-wallet-fraud-detection-age8kgvjke5rwuhbx9hpzs.streamlit.app
 
