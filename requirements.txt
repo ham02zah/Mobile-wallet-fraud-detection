@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+streamlit
+joblib
+python-dotenv
+
+#python3.11 -m pip install -r requirements.txt
+#python3.11 -m src.train_model
+#python3.11 -m streamlit run app.py
+
+#docker build -t mobile-wallet-fraud-ai:latest .
+#docker run -p 8501:8501 mobile-wallet-fraud-ai:latest

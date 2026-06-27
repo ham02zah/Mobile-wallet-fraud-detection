@@ -1,0 +1,10 @@
+{
+    "best_model": "Random Forest",
+    "training_rows_used": 300000,
+    "accuracy": 0.9997733333333333,
+    "precision": 0.995136186770428,
+    "recall": 0.9965903555772041,
+    "f1_score": 0.9958627403261134,
+    "roc_auc": 0.9995982176598586,
+    "pr_auc": 0.9976826037839073
+}

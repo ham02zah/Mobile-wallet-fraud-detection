@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mobile-wallet-fraud-ai
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mobile-wallet-fraud-ai
+  template:
+    metadata:
+      labels:
+        app: mobile-wallet-fraud-ai
+    spec:
+      containers:
+        - name: mobile-wallet-fraud-ai
+          image: mobile-wallet-fraud-ai:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8501
+          env:
+            - name: FRAUD_MODEL_THRESHOLD
+              value: "0.50"
+            - name: MAX_TRAINING_ROWS
+              value: "300000"
